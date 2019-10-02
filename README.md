@@ -1,0 +1,2 @@
+# WoWpi
+WoWpi WordPress plugin
