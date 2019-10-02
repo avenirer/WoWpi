@@ -1,0 +1,93 @@
+.wowpi_character_container, .wowpi_guild_container{box-sizing: border-box;padding: 10px;background:#000;color:#fff;text-align:center;background-size: cover; background-position:center center;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;font-family: Arial, Verdana, sans-serif;font-size:12px;line-height:12px;}
+.wowpi_character_container.alliance{background-color:#003d85;}
+.wowpi_character_container.horde{background-color:#710a0d;}
+.wowpi_character_container.horde span, .wowpi_character_container.horde .total, .wowpi_character_container .itemlvl_total, .wowpi_character_container.horde a {color: #eaa4aa;}
+.wowpi_character_container.alliance span, .wowpi_character_container.alliance .total, .wowpi_character_container.alliance .itemlvl_total, .wowpi_character_container.alliance a {color: #5c87cd;}
+.wowpi_character_container .module {margin: 10px 0;}
+.wowpi_character_container .module .title, .wowpi_guild_achievement_feed .title {text-align:center; font-size:14px; margin: 10px 0;}
+
+.wowpi_character_container .character_image, .wowpi_guild_container .guild_tabard{width:100%;max-width:240px;display: block;margin: 0 auto;}
+.wowpi_character_container .character_image{ margin: 10px auto;border: 2px solid rgba(255,255,255,.2);-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px; max-width:84px;}
+.wowpi_character_container.horde .character_image{ border-color: #480006;}
+.wowpi_character_container.alliance .character_image{ border-color: #00183e;}
+.wowpi_character_container .character_name, .wowpi_guild_container .guild_name{font-weight:bold; font-size: 36px; line-height:36px;}
+.wowpi_character_container .character_guild{ color:#ffb100;}
+.wowpi_character_container .character_title, .wowpi_character_container .kills{ margin: 10px auto; line-height: 14px;}
+.wowpi_character_container .character_title span {font-weight:bold;line-height:18px;}
+.wowpi_character_container .achievement_feed {text-align: left;}
+.wowpi_character_container .achievement_feed ul, .wowpi_character_data td ul {list-style: none none inside;}
+.wowpi_character_container .achievement_feed ul li, .wowpi_character_data td.achievement_feed li {padding-left: 30px; background-position: top left; background-repeat: no-repeat; line-height: 18px; margin-bottom: 1px;}
+.wowpi_character_data td.achievement_feed li {text-align:left;}
+.wowpi_character_container .achievement_feed ul li .shield {height: 12px; width: auto;}
+.wowpi_character_container .kills .total, .wowpi_guild_achievement_feed .total, .wowpi_character_container .achievements .total, .wowpi_character_container .gear .itemlvl_total {font-weight:bold; font-size: 24px; line-height: 32px; text-align:center;}
+.wowpi_guild_achievement_feed .from {text-align:center;}
+.wowpi_character_container .gear {margin: 10px 0; text-align:left; font-size:14px; line-height:16px; text-align:center;}
+.wowpi_character_container .gear img, .wowpi_character_container .talents img, .wowpi_character_container .professions img, .wowpi_character_container .achievement_feed img, .wowpi_character_container .artifact_weapon img {margin: 1px 1px; vertical-align:middle;}
+.wowpi_character_container img.q3 {border:1px solid #0070dd;}
+.wowpi_character_container img.q4 {border:1px solid #a335ee;}
+.wowpi_character_container img.q6 {border:1px solid #e5cc80;}
+.wowpi_character_container .realm {color:#000611; font-size: 10px;}
+.wowpi_character_container .professions {margin: 10px 0; text-align:left;}
+.wowpi_character_container span.points, .wowpi_character_data td.achievement_feed span.points {font-weight:bold; display:inline-block; background: url('../images/theme/shield.png') right center no-repeat; padding-right: 15px;}
+
+.wowpi_guild_container .guild_tabard {margin: 0 auto; width:100%; max-width:216px; height: 240px; background-repeat: no-repeat; background-position:center center; display: flex; justify-content: center; align-items: center;}
+.wowpi_guild_roster {width:100%;border-collapse: collapse; border:0;}
+.wowpi_guild_roster thead th {font-weight:bold; text-align:center;}
+.wowpi_guild_roster th, .wowpi_guild_roster td {padding: 3px;}
+.wowpi_guild_roster td.race, .wowpi_guild_roster td.class, .wowpi_guild_roster td.level, .wowpi_guild_roster td.grank, .wowpi_guild_roster td.achievement_points {text-align:center;}
+.wowpi_guild_roster .class_1 .name a {color: #c69b6d;}
+.wowpi_guild_roster .class_2 .name a {color: #f48cba;}
+.wowpi_guild_roster .class_3 .name a {color: #aad372;}
+.wowpi_guild_roster .class_4 .name a {color: #fff468;}
+.wowpi_guild_roster .class_5 .name a {color: #f0ebe0;}
+.wowpi_guild_roster .class_6 .name a {color: #c41e3b;}
+.wowpi_guild_roster .class_7 .name a {color: #2359ff;}
+.wowpi_guild_roster .class_8 .name a {color: #68ccef;}
+.wowpi_guild_roster .class_9 .name a {color: #9382c9;}
+.wowpi_guild_roster .class_10 .name a {color: #00ffba;}
+.wowpi_guild_roster .class_11 .name a {color: #ff7c0a;}
+.wowpi_guild_roster .class_12 .name a {color: #a330c9;}
+
+.wowpi_character_data {border-collapse: collapse; border:0;}
+.wowpi_character_data.extended {width:100%;}
+.wowpi_character_data.condensed {background-position: center center; background-repeat: no-repeat; display:inline-block; margin: 10px;}
+.wowpi_character_data td {text-align:center; padding: 5px;}
+.wowpi_character_data th {text-align:right; font-weight:bold; vertical-align:top; padding: 5px; 10px;}
+.wowpi_character_data.condensed.horde td, .wowpi_character_data.condensed.horde th {background: rgba(113,10,13,.7);}
+.wowpi_character_data.condensed.alliance td, .wowpi_character_data.condensed.alliance th {background: rgba(0,61,133,.7);}
+.wowpi_character_data.condensed .gear img, .wowpi_character_data.condensed .talents img {width:20px; height:20px;}
+.wowpi_character_data td img{margin: 1px;}
+.wowpi_character_data .class_crest {vertical-align: top;}
+.wowpi_character_data .class_crest img {width:200px; height: 200px;}
+.wowpi_character_data .character_name {font-weight:bold;font-size: 36px; line-height:36px;}
+
+/* table sorter */
+table#wowpi_guild_members {text-align: left;}
+table#wowpi_guild_members tr, table#wowpi_guild_members tr td {background-color:transparent; color:#fff;}
+table#wowpi_guild_members thead tr th, table#wowpi_guild_members tfoot tr th {padding: 4px;}
+table#wowpi_guild_members thead tr .header {background-image: url(../images/bg.gif);background-repeat: no-repeat;background-position: center right;cursor: pointer;}
+table#wowpi_guild_members thead tr .headerSortUp {background-image: url(../images/asc.gif);}
+table#wowpi_guild_members thead tr .headerSortDown {background-image: url(../images/desc.gif);}
+table#wowpi_guild_members thead tr .headerSortDown, table#wowpi_guild_members thead tr .headerSortUp {background-color: rgba(255,255,255,.4);}
+table#wowpi_guild_members td span {display:none;}
+table#wowpi_guild_members td.achievement_points, table#wowpi_guild_members td.level {text-align:right;}
+
+/*guild progression */
+.wowpi_guild_progression .kill {background-position: right center; background-repeat: no-repeat; padding-right: 50px;}
+.wowpi_guild_progression .kill.not_completed {background-image:url('../images/theme/skull_normal.png');}
+.wowpi_guild_progression .kill.completed {background-image:url('../images/theme/skull_elite.png');}
+
+/*realm status */
+.wowpi_realm_status {border-collapse: collapse; border:0;}
+.wowpi_realm_status th, .wowpi_realm_status td {padding: 8px 10px;}
+.wowpi_realm_status thead th {text-align:left; font-weight: bold;}
+.wowpi_realm_status td.status, .wowpi_realm_status td.type, .wowpi_realm_status td.population {text-align:center;}
+.wowpi_realm_status td.status span {display:none;}
+.wowpi_realm_status td img {width: 15px; height: 15px; display:inline-block; margin: 0 auto;}
+
+/*guild achievement feed*/
+.wowpi_guild_achievement_feed {text-align: left;}
+.wowpi_guild_achievement_feed ul, .wowpi_character_data td ul {list-style: none none inside;}
+.wowpi_guild_achievement_feed ul li {padding-left: 30px; background-position: 0 3px; background-repeat: no-repeat;}
+.wowpi_guild_achievement_feed li {text-align:left;}
+.wowpi_guild_achievement_feed span.points {font-weight:bold; display:inline-block; background: url('../images/theme/shield.png') right center no-repeat; padding-right: 15px;}

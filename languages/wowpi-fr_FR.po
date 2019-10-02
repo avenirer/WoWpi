@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WoWpi - the World of Warcraft API Armory plugin\n"
+"POT-Creation-Date: 2016-10-11 11:14+0300\n"
+"PO-Revision-Date: 2016-10-11 11:14+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wowpi.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/wowpi_admin.php:22
+msgid "Save Changes"
+msgstr "Sauvegarder les Changements"
+
+#: includes/wowpi_shortcodes_characters.php:94
+msgid "Character:"
+msgstr "Personnage:"
+
+#: includes/wowpi_shortcodes_characters.php:99 includes/wowpi_views.php:134
+msgid "Also known as"
+msgstr "Aussi connu sous le nom"
+
+#: includes/wowpi_shortcodes_characters.php:101
+#, php-format
+msgid "Level %1s %2s %3s"
+msgstr "Niveau %1$s %2$s %3$s"
+
+#: includes/wowpi_shortcodes_guilds.php:186
+msgid "Name"
+msgstr "Nom"
+
+#: includes/wowpi_shortcodes_guilds.php:189
+msgid "Race"
+msgstr "Race"
+
+#: includes/wowpi_shortcodes_guilds.php:190
+msgid "Class"
+msgstr "Classe"
+
+#: includes/wowpi_shortcodes_guilds.php:194
+msgid "The one"
+msgstr "C’est lui"
+
+#: includes/wowpi_shortcodes_guilds.php:196
+msgid "Level"
+msgstr "Niveau"
+
+#: includes/wowpi_shortcodes_guilds.php:197
+#: includes/wowpi_shortcodes_guilds.php:240
+msgid "Rank"
+msgstr "Rang"
+
+#: includes/wowpi_shortcodes_guilds.php:198
+msgid "Achievement Points"
+msgstr "Points de Hauts Faits"
+
+#: includes/wowpi_shortcodes_guilds.php:236
+msgid "Guild Master"
+msgstr "Maître de Guilde"
+
+#: includes/wowpi_shortcodes_realms.php:94
+msgid "Realm"
+msgstr ""
+
+#: includes/wowpi_shortcodes_realms.php:128
+msgid "Status"
+msgstr ""
+
+#: includes/wowpi_shortcodes_realms.php:131
+msgid "Population"
+msgstr ""
+
+#: includes/wowpi_shortcodes_realms.php:134
+msgid "Type"
+msgstr ""
+
+#: includes/wowpi_views.php:117
+msgid "of the "
+msgstr "des"
+
+#: includes/wowpi_views.php:134
+#, php-format
+msgid "Level %1$s %2$s %3$s"
+msgstr "Niveau %1$s %2$s %3$s"
+
+#: includes/wowpi_views.php:226
+msgid "Primary professions:"
+msgstr "Métiers principaux:"
+
+#: includes/wowpi_views.php:236
+msgid "Secondary professions:"
+msgstr "Métiers secondaires:"
+
+#: includes/wowpi_views.php:407
+msgid "Achievement points:"
+msgstr "Points de Hauts Faits:"
+
+#: includes/wowpi_views.php:410
+msgid "Latest achievements:"
+msgstr "Derniers Hauts Faits:"
+
+#: includes/wowpi_views.php:413
+msgid "Honorable kills:"
+msgstr "Victoires honorables:"
+
+#: includes/wowpi_views.php:416
+msgid "Professions:"
+msgstr "Professions:"
+
+#: includes/wowpi_views.php:419
+msgid "Gear:"
+msgstr "Equipement:"
+
+#: includes/wowpi_views.php:422
+msgid "Artifact Weapon:"
+msgstr "Arme Prodigieuse:"
+
+#: includes/wowpi_views.php:425
+msgid "Artifact Traits:"
+msgstr "Talents d'Arme Prodigieuse:"
+
+#: includes/wowpi_views.php:428
+msgid "Artifact Relics:"
+msgstr "Reliques d'Arme Prodigieuse:"
+
+#: includes/wowpi_views.php:431
+msgid "Talents:"
+msgstr "Talents:"
+
+#: includes/wowpi_widget_character.php:6
+msgid "WoWpi Character Widget"
+msgstr "Widget de Personnage WoWpi"
+
+#: includes/wowpi_widget_character.php:6
+msgid "You can simply show your WoW character data by using this widget"
+msgstr ""
+"Vous pouvez simplement montrer vos  données de personnage WoW en utilisant "
+"ce widget."
+
+#: includes/wowpi_widget_character.php:65
+msgid ""
+"Character name (if you want the character name to be the same as the logged-"
+"in username, you should put \"<strong>[username] - Guild name</strong>\" as "
+"value and replace \"Guild name\" with the blog's guild name - you can also "
+"put \"<strong>[nickname] - Guild name</strong>\"):"
+msgstr ""
+
+#: includes/wowpi_widget_character.php:69
+msgid ""
+"Realm (if you use <strong>[username] - Guild name</strong> or "
+"<strong>[nickname] - Guild name</strong> as Character name, you must put the "
+"<strong>realm of the guild</strong> here):"
+msgstr ""
+
+#: includes/wowpi_widget_realms.php:6
+msgid "WoWpi Realms Widget"
+msgstr ""
+
+#: includes/wowpi_widget_realms.php:6
+msgid "You can simply show if the realm is online or not by using this widget"
+msgstr ""
+
+#: includes/wowpi_widget_realms.php:39
+msgid "Widget title:"
+msgstr ""
+
+#: includes/wowpi_widget_realms.php:44
+msgid "Realm:"
+msgstr "Serveur:"
+
+#: includes/wowpi_widget_realms.php:48
+msgid "What do you want to show:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WoWpi - the World of Warcraft API Armory plugin"
+msgstr "WoWpi - Le plugin API de l'Armurerie World of Warcraft"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/wowpi/"
+msgstr "https://wordpress.org/plugins/wowpi/"
+
+#. Description of the plugin/theme
+msgid ""
+"WoWpi is an World of Warcraft API Armory plugin used to get data from Battle."
+"net API"
+msgstr ""
+"WoWpi est un plugin API de l'armurerie World of Warcraft utilisé pour "
+"obtenir des données de l'API Battle.net"
+
+#. Author of the plugin/theme
+msgid "avenirer - Adrian Voicu"
+msgstr "avenirer - Adrian Voicu"
+
+#. Author URI of the plugin/theme
+msgid "http://avenir.ro"
+msgstr "http://avenir.ro"
+
+#~ msgid "Character name:"
+#~ msgstr "Nom du personnage:"

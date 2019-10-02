@@ -1,0 +1,1 @@
+var wowhead_tooltips = {};
